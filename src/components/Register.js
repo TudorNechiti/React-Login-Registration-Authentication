@@ -47,7 +47,6 @@ const Register = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            console.log("DAA")
             const response = await axios.post(REGISTER_URL,
                 JSON.stringify({ username, password }),
                 {
