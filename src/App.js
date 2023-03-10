@@ -9,7 +9,7 @@ import Unauthorized from './components/Unauthorized';
 import Lounge from './components/Lounge';
 import LinkPage from './components/LinkPage';
 import RequireAuth from './components/RequireAuth';
-import PersistLogin from './components/PersistentLogin';
+import PersistLogin from './components/PersistLogin';
 import { Routes, Route } from 'react-router-dom';
 
 const ROLES = {
